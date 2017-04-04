@@ -340,6 +340,7 @@ map = L.map("map", {
   //center: [40.702222, -73.979378],
   center: [0.54, 101.5],// center on Pekanbaru, Riau, Indonesia
   //layers: [cartoLight, boroughs, markerClusters, highlight],
+  layers: [cartoLight, markerClusters, highlight],
   zoomControl: false,
   attributionControl: false
 });
